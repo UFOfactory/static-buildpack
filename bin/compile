@@ -6,12 +6,12 @@ cache_dir=$2
 # fail fast
 set -e
 
-echo "-----> Installing nginx-light with apt-get"
+#echo "-----> Installing nginx-light with apt-get"
 
-apt-get -y update
-apt-get -y install nginx-light
+#apt-get -y update
+#apt-get -y install nginx-light
 
-echo "       Nginx installed"
+#echo "       Nginx installed"
 
 echo "-----> Adding Nginx config"
 
